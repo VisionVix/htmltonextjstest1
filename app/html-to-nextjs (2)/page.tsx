@@ -1,5 +1,12 @@
-"use client"\n// @ts-nocheck\n/* eslint-disable */\n\nimport Image from "next/image"\nimport Link from "next/link"
-import Script from "next/script"\n\nexport default function HomePage() {
+"use client"
+// @ts-nocheck
+/* eslint-disable */
+
+import Image from "next/image"
+import Link from "next/link"
+import Script from "next/script"
+
+export default function HomePage() {
   return (
     <>
       <Script src="/page-scripts.js" strategy="afterInteractive" />
